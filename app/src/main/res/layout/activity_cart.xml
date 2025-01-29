@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".CartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bottom_nav_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/profile11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/CartBottomHome"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/img_5" />
+
+            <ImageView
+                android:id="@+id/CartBottomShops"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="54dp"
+                app:layout_constraintStart_toEndOf="@+id/CartBottomHome"
+                app:srcCompat="@drawable/img_7" />
+
+            <ImageView
+                android:id="@+id/CartBottomCart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="54dp"
+                app:layout_constraintEnd_toStartOf="@+id/CartBottomUser"
+                app:srcCompat="@drawable/img_11" />
+
+            <ImageView
+                android:id="@+id/CartBottomUser"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/img_9" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

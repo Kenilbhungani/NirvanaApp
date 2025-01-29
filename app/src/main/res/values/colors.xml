@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main">#088178</color>
+    <color name="gray">#575757</color>
+    <color name="stoke">#C2C9D1</color>
+    <color name="profile">#F5F6FA</color>
+    <color name="blue">#41ABE7</color>
+    <color name="stoke1">#FAFAFA</color>
+</resources>

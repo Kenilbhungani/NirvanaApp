@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1082732636653",
+    "project_id": "nirvanakkcj",
+    "storage_bucket": "nirvanakkcj.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082732636653:android:627a91cbb336d1460d9fe4",
+        "android_client_info": {
+          "package_name": "com.example.nirvana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxQJ3ZNxBkvqkooZZlNMpbI_HRQiCmmHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
