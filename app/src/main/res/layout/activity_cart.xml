@@ -26,15 +26,15 @@
                 android:id="@+id/CartBottomHome"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginStart="30dp"
+                app:layout_constraintEnd_toStartOf="@+id/CartBottomShops"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/img_5" />
+                app:srcCompat="@drawable/img_6" />
 
             <ImageView
                 android:id="@+id/CartBottomShops"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginStart="54dp"
+                app:layout_constraintEnd_toStartOf="@+id/CartBottomCart"
                 app:layout_constraintStart_toEndOf="@+id/CartBottomHome"
                 app:srcCompat="@drawable/img_7" />
 
@@ -42,15 +42,15 @@
                 android:id="@+id/CartBottomCart"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginEnd="54dp"
-                app:layout_constraintEnd_toStartOf="@+id/CartBottomUser"
-                app:srcCompat="@drawable/img_11" />
+                app:srcCompat="@drawable/img_8"
+                app:layout_constraintStart_toEndOf="@+id/CartBottomShops"
+                app:layout_constraintEnd_toStartOf="@+id/CartBottomUser" />
 
             <ImageView
                 android:id="@+id/CartBottomUser"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginEnd="30dp"
+                app:layout_constraintStart_toEndOf="@+id/CartBottomCart"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:srcCompat="@drawable/img_9" />
 

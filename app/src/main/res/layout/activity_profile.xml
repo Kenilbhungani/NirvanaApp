@@ -345,15 +345,15 @@
                 android:id="@+id/UserBottomHome"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginStart="30dp"
+                app:layout_constraintEnd_toStartOf="@+id/UserBottomShops"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/img_5" />
+                app:srcCompat="@drawable/img_6" />
 
             <ImageView
                 android:id="@+id/UserBottomShops"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginStart="54dp"
+                app:layout_constraintEnd_toStartOf="@+id/UserBottomCart"
                 app:layout_constraintStart_toEndOf="@+id/UserBottomHome"
                 app:srcCompat="@drawable/img_7" />
 
@@ -361,17 +361,17 @@
                 android:id="@+id/UserBottomCart"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginEnd="54dp"
-                app:layout_constraintEnd_toStartOf="@+id/UserBottomUser"
-                app:srcCompat="@drawable/img_8" />
+                app:srcCompat="@drawable/img_8"
+                app:layout_constraintStart_toEndOf="@+id/UserBottomShops"
+                app:layout_constraintEnd_toStartOf="@+id/UserBottomUser" />
 
             <ImageView
                 android:id="@+id/UserBottomUser"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginEnd="30dp"
+                app:layout_constraintStart_toEndOf="@+id/UserBottomCart"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:srcCompat="@drawable/img_17" />
+                app:srcCompat="@drawable/img_9" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
